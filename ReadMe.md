@@ -1,6 +1,6 @@
 # 🌈 English to Latin Translator with T5
 
-This repo creates an English to Latin translator model by finetuning a pretrained T5 model. This translator is then pushed to the huggingface hub, ready to be used by anyone interested. 
+This repo creates an English to Latin translator model by finetuning a pretrained T5 model. This translator is then pushed to the huggingface hub, ready to be used by anyone interested. Pls see [the published model here](https://huggingface.co/MenaWANG/translator-en-la). 🥳 
 
 ## On the T5 Model 🤖
 
@@ -25,6 +25,7 @@ This is the first time I tried to fine-tune a LLM. Below is some learning I wish
     * env: My understanding is that by default we are operating in a virtual env, which could be a plus especially for collaboration.
     * autostop and idletime：My codespace stopped twice during the training, while my quota was far from the limit. While I believe training time shouldn't be considered as idle, but I increase the idletime anyway during the training [here](https://github.com/settings/codespaces).
     * speed: I used 4-core machine (fastest option available to me), and the speed is as fast as (if not slower than) running on my local. Much slower than running on google colab. For this repo that runs on github codespaces I revised the code to only run on 1/5 of the train data to shorten the training time.
+    * git commit. I encountered some issue while doing git commit to this repo. This seems to be a rare event though, pls see [issue posted here for updates](https://github.com/orgs/community/discussions/114849).
 
 ## Useful links: 🔗
 
