@@ -159,6 +159,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# just push the training code
-translator-en-la/
-checkpoint-*/
+# LLM: pushing training code, trained model pushed to huggingface
+*checkpoint*/
+model*
